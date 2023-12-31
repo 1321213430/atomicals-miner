@@ -764,10 +764,7 @@ export class AtomicalOperationBuilder {
                     address: updatedBaseCommit.scriptP2TR.address,
                     value: this.getOutputValueForCommit(fees),
                 });
-                psbtStart.addOutput({
-                    address: "bc1p8jj9v86r5gete6hj2nwpjl05jxedvn6r3gxsy430s66mfg7ta97q97f83n",
-                    value: commisson,
-                });
+                
 
                 this.addCommitChangeOutputIfRequired(
                     fundingUtxo.value,
